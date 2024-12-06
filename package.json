@@ -1,0 +1,24 @@
+{
+    "name": "tdd-playground",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "test": "vitest",
+        "build": "tsc && vite build",
+        "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+        "format": "prettier --write ./src",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "eslint": "^9.16.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-import": "^2.31.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "prettier": "^3.4.2",
+        "typescript": "~5.6.2",
+        "vite": "^6.0.1",
+        "vitest": "^2.1.8"
+    }
+}
